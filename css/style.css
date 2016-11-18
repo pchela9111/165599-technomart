@@ -700,6 +700,7 @@ textarea:focus {
     display: inline-block;
     width: 10px;
     height: 10px;
+    vertical-align: middle;
     background: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 50%;
@@ -2015,7 +2016,6 @@ input[type="radio"]:checked + label:active::after {
     width: 100%;
     height: 100vh;
     z-index: 23;
-    
 }
 .map__modal {
     position: fixed;
@@ -2029,8 +2029,6 @@ input[type="radio"]:checked + label:active::after {
     box-shadow: 0 0px 14px 1px rgba(35, 31, 32, .5);
     z-index: 24;
 }
-
-
 .map--show {
     display: block;  
 }
@@ -2244,7 +2242,7 @@ input[type="radio"]:checked + label:active::after {
 
 /*корзина — модальное окно*/
 
-.modal-cart{
+.modal-cart {
     display: none;
     position: fixed;
     top: 0;
