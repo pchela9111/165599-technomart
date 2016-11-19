@@ -939,7 +939,7 @@ textarea:focus {
   right: -20px;
   width: 0;
   height: 0;
-  content: '';
+  content: "";
   border: 19px solid #fff;
   border-left-color: #ee3643;
 }
@@ -1619,7 +1619,7 @@ textarea:focus {
 }
 .breadcrumbs__item::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 5px;
     left: -26px;
     width: 8px;
@@ -1630,7 +1630,7 @@ textarea:focus {
 }
 .breadcrumbs__item::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 10px;
     left: -26px;
     width: 8px;
@@ -1735,10 +1735,10 @@ textarea:focus {
     box-shadow: 0 2px 1px 0 #cfcfcf;
 }
 .filter__toggle--min {
-  left: 20px;
+    left: 20px;
 }
 .filter__toggle--max {
-  left: 160px;
+    left: 160px;
 }
 .filter__inputs {
     display: -webkit-box;
@@ -1755,7 +1755,7 @@ textarea:focus {
     padding-bottom: 25px;
 }
 .filter__inputs span {
-   line-height: 33px;
+    line-height: 33px;
 }
 .filter__input-item {
     display: block;
