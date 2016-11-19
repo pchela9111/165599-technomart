@@ -20,7 +20,7 @@
                         <a class="logo__link">Техномарт</a>
                     </div>
                     <form class="l-row__col  l-row__col--3-9  search-bar" action="/echo" method="get">
-                        <label class="search__icon"></label>
+                        <label class="search__icon" for="search"></label>
                         <input class="search-bar__input" type="search" id="search" name="search" placeholder="Поиск:">
                     </form>
                     <div class="l-row__col  l-row__col--5-15  menu-order">
@@ -62,7 +62,6 @@
                         <a class="nav-main__item" href="#">Контакты</a>
                     </div>
                 </nav>
-
             </div>
         </header>
         <main class="main">
@@ -80,7 +79,7 @@
                         </div>
                         <div class="l-row__col  l-row__col--4-6  offer-special__item  offer-special__item--purple">
                             <h2 class="offer-special__title">Техника</h2>
-                            <a class="btn  offer-special__btn " href="#">для стройки</a>
+                            <a class="btn  offer-special__btn" href="#">для стройки</a>
                         </div>
                     </div>
                     <div class="offer-special__item-bottom">
@@ -102,7 +101,6 @@
                                     <div class="offer-slider__item-content">
                                         <h2 class="offer-slider__title  offer-slider__title--big">Дрели</h2>
                                         <b class="offer-slider__title  offer-slider__title--small">Соседям на радость!</b>
-
                                     </div>
                                     <div class="offer-slider__item">
                                         <img class="offer-slider__img" src="img/offer-slider-perforator.jpg" width="620" height="266" alt="Перфораторы">
@@ -290,7 +288,9 @@
                             Вы можете забрать товар сами, заехав в наш офис:
                         </p>
                         <div class="contacts__map">
-                            <a class="js-open-map" href="#"><img class="company-about__img" src="img/contacts-map.jpg" width="300" height="158" alt="Адрес на карте"></a>
+                            <a class="js-open-map" href="#">
+                                <img class="company-about__img" src="img/contacts-map.jpg" width="300" height="158" alt="Адрес на карте">
+                            </a>
                         </div>
                         <a class="btn  contacts__btn-js" href="https://htmlacademy.ru">Заблудились? Напишите нам!</a>
                     </div>
